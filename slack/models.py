@@ -6,7 +6,7 @@ import requests
 class Memegen:
 
     def __init__(self):
-        self.BASE_URL = "https://memegen.link"
+        self.BASE_URL = "https://steve-memegen.herokuapp.com/"
         self.template_info = self.get_template_info()
         self.valid_templates = self.get_valid_templates()
         self.template_list = self.get_template_list()
